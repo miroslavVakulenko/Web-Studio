@@ -459,9 +459,28 @@ body {
     background-color: #404BBF;
 }
 /* =========/SECTION ONE========== */
+/* =========SECTION ONE tablet========== */
+@media screen and (min-width: 768px) {
+    .section-one-container {
+        width: 768px;
+        max-width: 768px;
+        margin: 0 auto;
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+            url('../images/section-one-background.jpg');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .effective {
+        width: 496px;
+        height: auto;
+        font-size: 56px;
+        font-weight: 700;
+        margin-bottom: 36px;
+    }
+}
 
-
-/* =========SECTION TWO========== */
+/* =========SECTION TWO mobile========== */
 .svg-container {
     display: none;
 }
@@ -502,6 +521,29 @@ body {
     flex-direction: column;
     gap: 72px;
 }
+/* ========section two tablet=========== */
+@media screen and (min-width: 768px) {
+    .container {
+        width: 768px;
+    }
+    .qualities-flex {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        gap: 8px;
+    }
+    .qualities-li-flex {
+        display: flex;
+        width: 264px;
+        flex-direction: column;
+        align-items: flex-start;  
+        width: calc((100% - 24px) / 2);
+    }
+        
+    
+}
+
+
 /* ========THIRD SECTION MOBILE========= */
 .section-third-flex {
     display: flex;
@@ -1056,13 +1098,13 @@ border: none;
     background-color: #404BBF;
 }
 /* ==========/BACKDROP========= */
-@media screen and (min-width: 480px) {
+/* @media screen and (min-width: 480px) {
     .container {
         width: 318px;
         margin-left: 0;
         margin-right: auto;
     }
-}
+} */
 
 @media screen and (min-width: 1158px) {
     .container {
