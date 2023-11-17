@@ -638,6 +638,7 @@ body {
 }
 
 .third-section-list-item {
+    width: 264px;
     background-color:
         #ffffff;
     display: flex;
@@ -1106,7 +1107,7 @@ border: none;
     }
 } */
 
-@media screen and (min-width: 1158px) {
+/* @media screen and (min-width: 1158px) {
     .container {
         width: 1158px;
     }
@@ -1116,7 +1117,7 @@ border: none;
         flex-direction: row;
         gap: 12px;
     }
-}
+} */
 
 
 
