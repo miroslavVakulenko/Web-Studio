@@ -1218,6 +1218,7 @@ screen and (min-device-pixel-ratio: 2) {
   }
 }
 
+
 /* ========FOURTH SECTION TABLET========= */
 
 @media screen and (min-width: 768px) {
@@ -1227,6 +1228,9 @@ screen and (min-device-pixel-ratio: 2) {
     flex-direction: column;
     gap: 24px;
     grid-template-columns: repeat(2, 1fr);
+  }
+  .portfolio-card {
+    width: 356px;
   }
 }
 
@@ -1241,6 +1245,7 @@ screen and (min-device-pixel-ratio: 2) {
     flex-direction: row;
     flex-wrap: wrap;
     width: 576px;
+    gap: 72px 24px;
   }
 
   .footer-left {
@@ -1685,7 +1690,9 @@ screen and (min-device-pixel-ratio: 2) {
     flex-direction: row;
     flex-wrap: nowrap;
   }
-
+  .footer-left {
+    align-items: start;
+  }
   .logo-second-footer {
     color: #F4F4FD;
     line-height: 1.17;
