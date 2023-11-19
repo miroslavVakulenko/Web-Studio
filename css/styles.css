@@ -1044,6 +1044,9 @@ screen and (min-device-pixel-ratio: 2) {
 /* =========HEADER TABLET STYLES======== */
 
 @media screen and (min-width: 768px) {
+  .mobile-menu {
+    display: none;
+  }
   .mobile-open-btn {
     display: none;
   }
