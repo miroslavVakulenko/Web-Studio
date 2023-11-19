@@ -1367,9 +1367,6 @@ screen and (min-device-pixel-ratio: 2) {
 
 
 /* ============Section one DESKTOP============ */
-  .container {
-
-  }
   .section-one {
     background-color: #2E2F42;
     padding: 188px 0;
@@ -1682,10 +1679,6 @@ screen and (min-device-pixel-ratio: 2) {
   .footer-div {
     flex-direction: row;
     flex-wrap: nowrap;
-  }
-
-  .footer-left {
-    
   }
 
   .logo-second-footer {
